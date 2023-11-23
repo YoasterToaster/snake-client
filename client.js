@@ -12,7 +12,7 @@ const connect = function () {
 
   conn.on("connect", () => {
     // console.log("Successfully connected to game server");
-    conn.write("Name: SAK");
+    conn.write("Name: BOT");
   });
 
     let count = 1;
